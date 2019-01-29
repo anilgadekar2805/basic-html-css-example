@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+	<title>table merging</title>
+	<meta charset="utf-8">
+	<meta name="keyword" content="provide here SEO friendly wesite keyword">
+	<meta name="description" content="write here youre wesite keyword">
+	
+	<link rel="shortcut icon" href="images/icon.ico">
+	<style>
+	.images{
+		height:100px;
+		width:140px;
+		border: 1px solid red;
+		padding:5px;
+		}	
+	</style>
+
+<script>
+function change(arg)
+{
+var display = document.getElementById("display");
+display.src=arg.src;
+
+}
+</script>
+</head>
+<body background="images/image6.jpg">
+<div>
+<h2 style="text-align:center;background-color:blue;color:white">View Images when MouseOver</h2>
+<div align="center">
+<img class="images" src="images/birds/1.jpg" onmouseover="change(this)">&nbsp;
+<img class="images" src="images/birds/2.jpg" onmouseover="change(this)">&nbsp;
+<img class="images" src="images/birds/3.jpg" onmouseover="change(this)">&nbsp;
+<img class="images" src="images/birds/4.jpg" onmouseover="change(this)">&nbsp;
+<img class="images" src="images/birds/5.jpg" onmouseover="change(this)">&nbsp;
+<img class="images" src="images/birds/6.jpg" onmouseover="change(this)">&nbsp;
+<img class="images" src="images/birds/7.jpg" onmouseover="change(this)">&nbsp;
+<img class="images" src="images/birds/9.jpg" onmouseover="change(this)">&nbsp;
+<img class="images" src="images/birds/10.jpg" onmouseover="change(this)">&nbsp;
+<img class="images" src="images/birds/01.jpg" onmouseover="change(this)">&nbsp;
+<img class="images" src="images/birds/08.jpg" onmouseover="change(this)">&nbsp;
+<img class="images" src="images/birds/07.jpg" onmouseover="change(this)">
+<br>
+<img id="display" src="images/birds/3.jpg" height="400" width="600" border="2">
+</div>
+
+
+</div>
+</body>
+</html>
